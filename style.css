@@ -1,6 +1,6 @@
 :root {
-    --dark-green :  #002366;
-    --faint-green : #add8e6;
+    --dark-blue :  #002366;
+    --faint-blue : #add8e6;
 }
 
 * {
@@ -19,7 +19,7 @@ body {
     margin: auto;
     padding: 2rem 1rem;
     text-align: center;
-    background-color: var(--dark-green);    
+    background-color: var(--dark-blue);    
 }
 
 h1, p {
@@ -29,7 +29,7 @@ h1, p {
 label, caption {
     font-size: 1.3rem;
     padding: 1.5rem 1rem 0.5rem;
-    color: var(--faint-green);
+    color: var(--faint-blue);
 }
 input {
     width: 100%;
@@ -44,8 +44,8 @@ button {
     font-size: 1rem;
     border: none;
     margin: 1rem auto 0;
-    background-color: var(--faint-green);
-    color: var(--dark-green);
+    background-color: var(--faint-blue);
+    color: var(--dark-blue);
     font-weight: bold;
 }
 
@@ -57,9 +57,9 @@ button {
 
 table, th, td {
     padding: 0.2rem;
-    color: var(--dark-green);
-    background-color: var(--faint-green);
-    border: 2px solid var(--dark-green);
+    color: var(--dark-blue);
+    background-color: var(--faint-blue);
+    border: 2px solid var(--dark-blue);
     border-collapse: collapse;
 }
 .no-of-note {
