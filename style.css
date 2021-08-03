@@ -1,6 +1,6 @@
 :root {
-    --dark-green : #064E3B;
-    --faint-green : #A7F3D0;
+    --dark-green :  #002366;
+    --faint-green : #add8e6;
 }
 
 * {
@@ -26,7 +26,7 @@ h1, p {
     color: white;
 }
 
-label {
+label, caption {
     font-size: 1.3rem;
     padding: 1.5rem 1rem 0.5rem;
     color: var(--faint-green);
@@ -54,6 +54,7 @@ button {
     color: white;
 }
 
+
 table, th, td {
     padding: 0.2rem;
     color: var(--dark-green);
@@ -67,5 +68,5 @@ table, th, td {
 }
 table {
     width: 100%;
-    table-layout: fixed;
+    table-layout: auto;
 }
