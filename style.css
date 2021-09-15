@@ -70,3 +70,23 @@ table {
     width: 100%;
     table-layout: auto;
 }
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--faint-blue);
+}
+
+footer {
+    bottom: 0px;
+    text-align: center;
+    color: var(--faint-blue);
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.list-no-bullet {
+    list-style: none;
+}
+.list-inline {
+    display: inline;
+    padding-right: 1rem;
+}
